@@ -1,0 +1,113 @@
+Cap. 7 - Aula 1: ex006
+<head>
+	<title>Hierarquia de Títulos</title>
+</head>
+<body>
+	<h1>Entendendo Portugal</h1>
+	<h2>Introdução</h2>
+	<h3>Justificação da Temática</h3>
+	<p>Lorem (+ENTER) </p>
+</body>
+---------------------------------------------------------------------------------------
+
+cap. 8 - Aula 1:ex007 (Acessar o site W3C para ver as Tags obsoletas)
+
+*Style = CSS
+<head>
+	<Style>
+    		body {
+       		background-color: rgb(166, 211, 4);
+   	 }</Style>
+</head>
+<body>
+	<p>Eu moro na <address>Rua dos Capixabas, 229 - Botafogo - RJ</address></p>
+</body>
+
+---------------------------------------------------------------------------------------
+
+Cap. 8 - Aula 2:ex008 (Negrito/Italico) -> Atalho Ctrl + Shift + P
+
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (Semântica).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em italico</i> usando a tag I (não semântica).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântoca).</p>
+
+</body>
+
+---------------------------------------------------------------------------------------
+
+Cap. 8 - Aula 3:ex008 (Marcado, Grande, Pequeno, deletado, Inserido, Sobrescrito, Subscrito)
+***O marcado deve ser mudado no HEAD para alterar todos da pagina***
+
+<head>
+    <style>
+        mark{
+            background-color: limegreen;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h2>Texto Marcado</h2>
+    <p>Podemos criar também <mark style="background-color: lime;">um texto marcado</mark> usando a tag MARK</p>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK</p>
+    <h2>Texto Grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> </p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. (Semantica)</p>
+    <p>Existe também o <u>sublinhado</u> com atag U (Não semântica).</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+
+---------------------------------------------------------------------------------------
+
+Cap. 8 - Aula 4 (Citações e Códigos) :ex008b 
+
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        
+        </code>
+    </pre>
+
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápito</q></p>
+    <h2>Citações completas</h2>
+    <blockquote>
+        HTML é a sigla em inglês para HyperText Markup Language, que, em português, significa linguagem para marcação de hipertexto.
+    </blockquote>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+        HTML é a sigla em inglês para HyperText Markup Language, que, em português, significa linguagem para marcação de hipertexto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML.</bdo></p>
+
+</body>
+
+---------------------------------------------------------------------------------------
+
+Cap. 9 - Aula 1 (Listas OL e UL) :ex00 
+

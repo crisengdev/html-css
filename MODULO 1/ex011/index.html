@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente 
+        aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" 
+        srcset="imagens/fötö-p.png" type="image/png" ><!--Quando a imagem de 700px passar de 750px troca para a pequena-->
+        <source media="(max-width: 1050px)" srcset="imagens/fötö-M.png" type="image/png">
+        <img src="imagens/fötö-G.png" alt="Imagem flexivel">
+
+        <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="media/ukulele01.mp3" type="audio/mpeg">
+            <source src="media/ukulele01.ogg" type="audio/ogg">
+            <source src="media/ukulele01.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir
+                áudio. <a href="media/ukulele01.mp3">Clique aqui para 
+                baixar o arquivo MP3</a>
+            </p>
+        </audio>
+
+        <!--
+            <audio src="media/ukulele01.mp3" controls autoplay></audio>
+        -->
+
+    </picture>
+    
+</body>
+</html>

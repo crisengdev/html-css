@@ -1,0 +1,19 @@
+Planejamento do Projeto!
+
+Site da Estrutura:
+https://mockflow.com/
+
+CORES: 
+color.adobe.com
+#14DF2C - C - Cor principal(Android)
+#085E13 - A
+#5FE36F - B
+#3E5941 - D
+#0FAB22 - E
+
+LETRAS:
+https://fonts.google.com/
+Bebas Neue (Títulos e destaques)
+
+https://www.dafont.com/pt/
+idroid

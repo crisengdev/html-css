@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTL5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hsopedado no meu próprio servidor.</p>
+    <!--  <video src="media/meu-video.mp4" width="500" controls></video>-->
+   
+    <video width="560" poster="media/poster-meu-video.png" controls loop>
+        <source src="media/Meu-Video_convertido01-ogv.ogv" type="video/mp4">
+        <source src="media/meu-video.mp4" type="video/mp">
+        <source src="media/Meu-Video_convertido01.webm" type="video/webm">
+        <source src="media/Meu-Video_convertido01.mp4" type="video/ogg">
+        <p>Seu navegador não tem compatibiliade com reprodução de videos.</p>
+    </video>
+
+    <h1>Inserindo Vídeos do Youtube</h1> <!-- É apenas compartilhar/Incorporar (No video do Youtube, o Youtube cria todo o código Automaticamente)-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IxwHNlS9gfI" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
+</body>
+</html>
